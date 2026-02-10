@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { ArrowDown } from "lucide-react";
-import heroBg from "@/assets/hero-bg.jpeg";
+import heroBg from "@/assets/hero-bg.jpg";
 
 const HeroSection = () => {
   return (
@@ -32,7 +32,7 @@ const HeroSection = () => {
           transition={{ delay: 0.4 }}
           className="text-5xl md:text-7xl lg:text-8xl font-black tracking-tight mb-4"
         >
-          <span className="text-foreground">Isaac</span>
+          <span className="text-foreground">Isaac Mills-Owoo</span>
           <span className="text-gradient">.</span>
         </motion.h1>
 
@@ -51,7 +51,7 @@ const HeroSection = () => {
           transition={{ delay: 0.8 }}
           className="text-muted-foreground max-w-xl text-base md:text-lg mb-10 md:mx-0 mx-auto"
         >
-          I'm a junior software engineer passionate about creating clean, 
+          I'm a software engineer passionate about creating clean, 
           performant, and user-friendly web experiences. Currently focused on 
           building accessible, pixel-perfect digital products.
         </motion.p>

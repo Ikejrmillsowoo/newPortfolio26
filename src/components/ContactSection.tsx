@@ -3,10 +3,10 @@ import { useRef } from "react";
 import { Mail, Github, Linkedin, Twitter } from "lucide-react";
 
 const socials = [
-  { icon: Github, href: "#", label: "GitHub" },
-  { icon: Linkedin, href: "#", label: "LinkedIn" },
-  { icon: Twitter, href: "#", label: "Twitter" },
-  { icon: Mail, href: "mailto:isaac@example.com", label: "Email" },
+  { icon: Github, href: "https://github.com/Ikejrmillsowoo", label: "GitHub" },
+  { icon: Linkedin, href: "https://www.linkedin.com/in/isaac-mills-owoo/", label: "LinkedIn" },
+  // { icon: Twitter, href: "#", label: "Twitter" },
+  { icon: Mail, href: "mailto:ikejrmillsowoo@gmail.com", label: "Email" },
 ];
 
 const ContactSection = () => {
@@ -31,7 +31,7 @@ const ContactSection = () => {
             I'll try my best to get back to you!
           </p>
           <a
-            href="mailto:isaac@example.com"
+            href="mailto:ikejrmillsowoo@gmail.com"
             className="inline-block px-10 py-4 border-2 border-primary text-primary font-mono text-sm rounded-lg hover:bg-primary/10 transition-colors glow-sm hover:glow-md"
           >
             Say Hello
@@ -52,6 +52,8 @@ const Footer = () => {
               key={social.label}
               href={social.href}
               aria-label={social.label}
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary hover:-translate-y-1 transition-all duration-300"
             >
               <social.icon size={20} />
@@ -59,7 +61,7 @@ const Footer = () => {
           ))}
         </div>
         <p className="text-xs font-mono text-muted-foreground">
-          Built with ♥ by Isaac
+          Isaac Mills-Owoo 2026
         </p>
       </div>
     </footer>

@@ -43,7 +43,7 @@ const AboutSection = () => {
               Here are a few technologies I've been working with recently:
             </p>
             <ul className="grid grid-cols-2 gap-2 text-sm font-mono">
-              {["JavaScript (ES6+)", "TypeScript", "React", "Node.js", "Tailwind CSS", "Python"].map(
+              {["Java, Springboot, JavaScript (ES6+)", "TypeScript", "React", "Node.js", "Tailwind CSS", "Python"].map(
                 (tech) => (
                   <li key={tech} className="flex items-center gap-2 text-muted-foreground">
                     <span className="text-primary text-xs">▹</span>
@@ -64,7 +64,7 @@ const AboutSection = () => {
               <div className="w-56 h-56 md:w-64 md:h-64 rounded-xl bg-surface border-2 border-glow overflow-hidden relative z-10 group-hover:translate-x-[-4px] group-hover:translate-y-[-4px] transition-transform duration-300">
                 <div className="absolute inset-0 bg-primary/20 group-hover:bg-transparent transition-colors duration-300" />
                 <div className="w-full h-full flex items-center justify-center text-6xl font-black text-gradient">
-                  I
+                  IMO
                 </div>
               </div>
               <div className="absolute top-4 left-4 w-56 h-56 md:w-64 md:h-64 rounded-xl border-2 border-primary/40 z-0 group-hover:translate-x-[4px] group-hover:translate-y-[4px] transition-transform duration-300" />
